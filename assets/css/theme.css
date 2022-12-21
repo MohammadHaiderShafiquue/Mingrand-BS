@@ -91,6 +91,13 @@ border-radius: 50%;
 
 
 }
+.col-md-3 a{
+text-decoration: none;
+color: var(--Green);
+margin:0 12px;
+
+
+}
     @media (max-width : 991.98px)
     {
 .contact-wrapper{
