@@ -63,6 +63,34 @@ z-index: 1;
 margin-right: 12px;
 
 }
+.featured-card{
+position: relative;
+
+}
+.featured-card figcaption{
+position: absolute;
+width: 100%;
+bottom:0;
+z-index: 1;
+}
+ .featured-card:after{
+
+    content: '';
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,0.7178221630449055) 21%, rgba(0,0,0,0.2024160005799195) 50%);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    }
+.featured-card figcaption img{
+width: 40px;
+height: 40px;
+border-radius: 50%;
+
+
+}
     @media (max-width : 991.98px)
     {
 .contact-wrapper{
