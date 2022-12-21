@@ -1,0 +1,11 @@
+Website Linke:- https://themeforest.net/item/mingrand-real-estate-html-template/31252963
+
+Colors:-
+
+Green = #5ba601;
+ Blue = #19294b;
+Grey = #f2f3f5;
+Grey1 = #f3f3f3;
+White = #fffff;
+Black = #000000;
+ 
