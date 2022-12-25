@@ -98,6 +98,80 @@ margin:0 12px;
 
 
 }
+.services{
+
+background-color: var(--Grey);
+
+}
+
+.bg-theme-green{
+    background-color: var(--Green);
+
+
+}
+.svr2{
+    background-color: var(--Blue);
+}
+.service{
+padding: 50px;
+text-align: center;
+position: relative;
+}
+.svr1::after{
+    content: "\e995";
+    font-family: 'icomoon' !important;
+    display: block;
+    position: absolute;                    
+  font-size: 200px;
+  top:0%;
+  left: 10%;
+  mix-blend-mode: darken;
+  opacity: 0.1;
+    
+    
+    }
+    .svr2::after{
+        content: "\e971";
+        font-family: 'icomoon' !important;
+        display: block;
+        position: absolute;                    
+      font-size: 200px;
+      top:0%;
+      left: 10%;
+      mix-blend-mode: darken;
+      opacity: 0.1;
+      color: white;
+        
+        
+        }
+        .svr3::after{
+            content: "\e9a6";
+            font-family: 'icomoon' !important;
+            display: block;
+            position: absolute;                    
+          font-size: 200px;
+          top:0%;
+          left: 10%;
+          mix-blend-mode: darken;
+          opacity: 0.1;
+          
+            
+            
+            }
+        
+        
+.service span{
+font-size: 70px;
+color: var(--White);
+display: inline-block;
+margin-bottom: 16px;
+
+}
+.service h3,.service p{
+margin: 0;
+color: var(--White);
+
+}
     @media (max-width : 991.98px)
     {
 .contact-wrapper{
