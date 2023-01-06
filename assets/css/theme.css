@@ -1,3 +1,4 @@
+
 :root{
     --Green : #5ba601;
     --Blue : #19294b;
@@ -16,8 +17,12 @@
 background-color: var(--Blue-Transparent);
 
 
-
 }
+body{
+    background-color: rgb(252,252,252);
+}
+
+
 .contact-wrapper{
 background-color: var(--Green);
 
@@ -172,6 +177,63 @@ margin: 0;
 color: var(--White);
 
 }
+.card-body span{
+color:var(--Green);
+
+
+}
+
+.card-body a{
+text-decoration: none;
+background-color: var(--Green);
+color: var(--White);
+padding: 1px;
+margin-left: 12px;
+}
+
+.card-body{
+margin:6px 12px;
+
+
+
+}
+.card{
+    position: relative;
+}
+.property-avatar{
+display: flex;
+position: absolute;
+bottom: 0;
+top:0;
+margin: 6px;
+align-items: center;
+
+
+}
+ .profile-logo img{
+width: 40px;
+height: 40px;
+border-radius: 50%;
+}
+
+.property-avatar .profile-addfavourite{
+margin-left: 250px;
+
+}
+.apartment-features ul{
+list-style: none;
+text-decoration: none;
+display: flex;
+justify-content: space-between;
+padding: 10px;
+}
+.apartment-features ul li{
+border-left: 2px solid var(--Grey);
+border-right: 2px solid var(--Grey);
+
+
+}
+
     @media (max-width : 991.98px)
     {
 .contact-wrapper{
